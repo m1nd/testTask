@@ -1,0 +1,13 @@
+.list {
+  border: 1px solid blue;
+  overflow: hidden;
+}
+
+.list__item {
+  border: 1px solid red;
+  width: calc(20% - 20px);
+  margin: 10px;
+  float: left;
+  box-sizing: border-box;
+  text-align: center;
+}
